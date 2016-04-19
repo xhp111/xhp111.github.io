@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>链接</title>
+  <style>
+    a{
+        font-size:300px;
+        background-color:#0f9;
+        text-decoration:none;
+    }
+    a:link{
+      color:#f00;
+    }
+    a:visited{
+      color:#fff;
+    }
+    a:hover{
+      color:red;
+    }
+    a:active{
+      color:blue;
+    }
+   .b{
+      width: 100px;
+      height: 200px;
+      background-color:#0f0;
+      position: relative;
+    }
+    .b .c{
+      width:200px;
+      height:400px;
+      background: url("http://img.taopic.com/uploads/allimg/120619/188760-12061Z9134839.jpg") no-repeat;
+      position: absolute;
+      left:102px;
+      top:-100px;
+      opacity: 0;
+      transition:all 1s;
+    }
+    .b:hover .c{
+      opacity: 100;
+    }
+  </style>
+</head>
+<body>
+  
+<a href="//baidu.com">百度</a>
+  <div class='b'>
+     <div class='c'></div>
+   </div>
+</body>
+</html>
