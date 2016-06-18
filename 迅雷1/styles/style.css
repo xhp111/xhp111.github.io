@@ -1,0 +1,66 @@
+/*1*/
+.zi{
+	position: relative;
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+}
+.zi .qian h2{
+	float: left;
+	color: #333;
+	font-size: 24px;
+	padding:30px 0;
+	display: block;
+	margin: 0px;
+}
+.zi .qian p{
+	padding:30px 0; 
+	height: 10px;
+	float: right;
+	font:12px 宋体;
+}
+.zi .qian p a{
+	color: #666;
+}
+.zi .wenzi p{
+	line-height: 30px;
+	font-size: 15px;
+	text-indent: 30px;
+}
+/*2*/
+.zi .rongyu ul{
+	padding: 0px;
+}
+.zi .rongyu ul li{
+	list-style-type: none;/*去点*/
+    
+}
+.zi .rongyu ul li img{
+ float: left;
+ padding: 0px 30px 30px 0px; 
+}
+.zi .rongyu ul li h3{
+   margin: 30px;
+   font-size: 16px;
+   color: #333;
+}
+.zi .rongyu ul li p {
+font-size: 14px;
+line-height: 30px;
+color: #666;
+}
+/*3*/
+.zi .xinwen li{
+	list-style-type: none;
+}
+.zi .xinwen li h3{
+	font-size: 24px;
+
+}
+.zi .xinwen li h3 a{
+	color: #333;
+	text-decoration: none;
+}
+/*4*/
+
+/*5*/
